@@ -1,8 +1,12 @@
 import { LitElement, html, css } from 'lit';
+import globalcss from './globalcss.js';
+import './roamr-map.js';
 
 class RoamrApp extends LitElement {
+  static styles = [globalcss, css``];
+
   render() {
-    return html`<h1>Roamr App</h1>`;
+    return html` <roamr-map></roamr-map> `;
   }
 }
 
