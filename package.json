@@ -18,8 +18,7 @@
     "start": "web-dev-server"
   },
   "dependencies": {
-    "lit": "^2.0.2",
-    "mapbox-gl": "^2.15.0"
+    "lit": "^2.0.2"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.16.4",
@@ -43,6 +42,7 @@
     "prettier": "^2.4.1",
     "rimraf": "^3.0.2",
     "rollup": "^2.60.0",
+    "rollup-plugin-css-only": "^4.3.0",
     "rollup-plugin-esbuild": "^5.0.0",
     "rollup-plugin-workbox": "^6.2.0"
   },
