@@ -5,8 +5,7 @@ import globalcss from './globalcss.js';
 import mapboxcss from './mapboxcss.js';
 import './roamr-map-marker.js';
 
-mapboxgl.accessToken =
-  'pk.eyJ1Ijoia2VubmV0aC1xdWludGVybyIsImEiOiJjbGU1bmlsc2gwOHZvM25wM2NwZXVrZnVhIn0.pWzKCuC-uYwHxJm0vThQFQ';
+mapboxgl.accessToken = process.env.MAPBOX_API_KEY;
 
 class RoamrMap extends LitElement {
   static styles = [
